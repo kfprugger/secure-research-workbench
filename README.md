@@ -7,7 +7,7 @@ This SRW implementation assumes the following are in place before deploying any 
 1.	A singular [Azure Active Directory Tenant](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant) (AAD) and singular [Active Directory Domain Services](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) (AD DS) are in place. 
 2.	Networking in the SRW will follow the Hub-and-Spoke aka Transit Hub Azure networking topology.
 
-    ![](images\hub-n-spoke2.png)
+    ![](images/hub-n-spoke2.png)
 
 3.	Azure Management Groups are not part of this solution although Azure Blueprints will be. The scope of those blueprints will be evident in the documentation for each Blueprint
 4.	Researcher groups will have independent Azure resource groups in the <b>same subscription</b> as the SRW management research group. 
@@ -32,7 +32,7 @@ This SRW implementation assumes the following are in place before deploying any 
 * Azure Sentinel
 # Deployed Secure Research Workbench
 ## [Secure Research Workbench PDF](Visio_PDF.pdf)
-![](images\overviewVisio.gif)
+![](images/overviewVisio.gif)
 
 # Aspirational Additions to the Secure Research Workbench
 * Azure Machine Learning Service - Compute Instances
